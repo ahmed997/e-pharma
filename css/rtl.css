@@ -1,0 +1,84 @@
+*
+{
+	font-family : 'Cairo', sans-serif;
+}
+
+.first-nav, .second-nav, .third-nav, .carouseel, .carouseel-small .col-12 .price, .best-sales, .products, .about, .footer, .preview-out, .signUp, .signIn
+{
+	direction : rtl;
+}
+
+.first-nav .navbar-nav .dropdown .dropdown-menu
+{
+	text-align : right;
+}
+
+.first-nav .navbar-nav .dropdown .dropdown-menu a img, .first-nav .container .lang-small img
+{
+	padding-right : 0;
+	padding-left  : 0.5rem;
+}
+
+.first-nav .collapse .navbar-nav
+{
+	padding-right : 0;
+}
+
+.first-nav .container .lang-small .dropdown .dropdown-menu
+{
+	position : absolute !important;
+	left     : 0;
+	right    : auto;
+}
+
+.second-nav .search .input-group .input-group-btn:not(:first-child) > .btn, .second-nav .search .input-group .input-group-btn:not(:first-child) > .btn-group
+{
+	margin-left   : 0;
+	border-radius : 0.25rem 0 0 0.25rem;
+}
+
+.second-nav .search .input-group .input-group-btn
+{
+	position : absolute;
+	top      : 0;
+	left     : 0;
+}
+
+.third-nav .collapse .navbar-nav .dropdown-menu
+{
+	right      : 0;
+	text-align : right !important;
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail .price p, .carouseel-small .col-12 .price p
+{
+	margin-left  : 0;
+	margin-right : 2rem;
+}
+
+.footer .row .social
+{
+	text-align : left;
+}
+
+@media (max-width : 768px)
+{
+	.first-nav .navbar-collapse
+	{
+		padding-left  : 0;
+		padding-right : 1rem;
+	}
+	
+	.third-nav .navbar-nav
+	{
+		text-align    : right;
+		margin-left   : 0 !important;
+		margin-right  : 0 !important;
+		padding-right : 1rem !important;
+	}
+	
+	.footer .row .social
+	{
+		text-align : center;
+	}
+}

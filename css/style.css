@@ -1,0 +1,616 @@
+*
+{
+	font-family : 'Open Sans', sans-serif;
+}
+
+/* Start First-Nav */
+
+.first-nav, .third-nav
+{
+	background-color : #4A1263 !important;
+	font-size        : 0.95rem;
+}
+
+.first-nav .navbar-nav:first-of-type .nav-item .wel
+{
+	color : #FFF;
+}
+
+.first-nav .container .lang-small .dropdown-toggle
+{
+	color : rgba(255, 255, 255, 0.5);
+}
+
+.first-nav .navbar-nav .dropdown .dropdown-menu a img, .first-nav .container .lang-small img
+{
+	width         : 35px;
+	padding-right : 0.5rem;
+}
+
+.first-nav .container .lang-small .dropdown .dropdown-menu
+{
+	position : absolute !important;
+	left     : auto;
+	right    : 0;
+}
+
+/* Start First-Nav */
+
+/* Start Second-Nav */
+
+.second-nav .row .col-md-6 .input-group .input-group-btn .btn-secondary
+{
+	background : #4A1263;
+}
+
+.second-nav .row .col-md-3 div
+{
+	background    : #FFF;
+	border        : 2px solid #4A1263;
+	border-radius : 10px;
+	text-align    : center;
+	padding       : 3px 0;
+}
+
+.second-nav .row .col-md-3 div i
+{
+	color : #4A1263;
+}
+
+.second-nav .row .col-md-3 div span
+{
+	font-size : 18px;
+	color     : #4A1263;
+}
+
+/* End Second-Nav */
+
+/* Start Third-Nav */
+
+.third-nav
+{
+	height : auto;
+}
+
+.third-nav .navbar-nav .nav-item
+{
+	/*margin     : 0.25rem 4rem 0.25rem 0;*/
+	transition : background 0.5s ease-in-out,
+	border-radius 0.5s ease-in-out;
+}
+
+.third-nav .navbar-nav .nav-item:last-child
+{
+	margin-right : 0;
+}
+
+.third-nav .navbar-nav .nav-item:hover
+{
+	background    : rgba(198, 200, 202, 0.5);
+	border-radius : 10px;
+}
+
+/* End Third-Nav */
+
+/* Start LapTop-Carousal */
+
+.carouseel
+{
+	background : #E7E7E7;
+}
+
+.carouseel .slide ol
+{
+}
+
+.carouseel .slide ol li
+{
+	background : #A589B1;
+	cursor     : pointer;
+}
+
+.carouseel .slide ol .active
+{
+	background : #4A1263 !important;
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail p, .carouseel-small .col-12 p
+{
+	text-align  : justify;
+	padding-top : 0.5rem;
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail .price s, .carouseel-small .col-12 .price s
+{
+	background    : #FB4918;
+	padding       : 0.25rem 1rem;
+	font-size     : 1.15rem;
+	border-radius : 0.5rem;
+	color         : #C6C8CA;
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail .price p, .carouseel-small .col-12 .price p
+{
+	padding       : 0.25rem 1rem;
+	font-size     : 1.15rem;
+	border-radius : 0.5rem;
+	background    : #4A1263;
+	color         : #FFF;
+	margin-left   : 2rem;
+	display       : inline-block;
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail .add-cart, .carouseel-small .col-12 .add-cart
+{
+	background    : rgba(74, 18, 99, 0.3);
+	text-align    : center;
+	border-radius : 0.5rem;
+	width         : 70%;
+	transition    : background 0.2s ease-in-out;
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail .add-cart:hover, .carouseel-small .col-12 .add-cart:hover
+{
+	background : rgba(74, 18, 99, 1);
+}
+
+.carouseel .carousel .carousel-inner .carousel-item .carousel-p-detail .add-cart a, .carouseel-small .col-12 .add-cart a
+{
+	text-decoration : none;
+	color           : #FFF;
+	height          : 100%;
+	width           : 100%;
+	display         : inline-block;
+	padding         : 0.5rem 0.75rem;
+}
+
+/* End LapTop-Carousal */
+
+/* Start Tablet-Carousal */
+
+.carouseel-small
+{
+	background      : url("../img/pexels-photo-163944.jpeg") center no-repeat fixed;
+	background-size : cover;
+	height          : 400px;
+}
+
+.carouseel-small .col-12
+{
+	color         : #FFF;
+	background    : rgba(74, 18, 99, 0.65);
+	padding       : 1rem;
+	border-radius : 1rem;
+}
+
+/* End Tablet-Carousal */
+
+/* Start Best-Sales */
+
+.best-sales .col-md-4 img
+{
+	margin : auto;
+}
+
+.best-sales .col-md-4 p
+{
+	display       : inline-block;
+	padding       : 0.5rem 1.25rem;
+	font-size     : 1.15rem;
+	border-radius : 0.5rem;
+	border        : 2px solid #4A1263;
+	color         : #4A1263;
+	margin        : 1rem auto;
+}
+
+.best-sales .col-md-4 .more button
+{
+	display         : block;
+	background      : rgba(74, 18, 99, 0.3);
+	text-align      : center;
+	border-radius   : 0.5rem;
+	transition      : background 0.2s ease-in-out;
+	text-decoration : none;
+	color           : #FFF;
+	padding         : 0.5rem 0.75rem;
+	border          : none;
+	cursor          : pointer;
+	outline         : none;
+	margin          : auto;
+}
+
+.best-sales .col-md-4 .more button:first-of-type
+{
+	margin-bottom : 0.5rem;
+}
+
+.best-sales .col-md-4 .more button:hover
+{
+	background : rgba(74, 18, 99, 1);
+}
+
+/* End Best-Sales */
+
+/* Start Products */
+
+.products .col-md-3 p
+{
+	display       : inline-block;
+	padding       : 0.5rem 1.25rem;
+	font-size     : 1.15rem;
+	border-radius : 0.5rem;
+	border        : 2px solid #4A1263;
+	color         : #4A1263;
+	margin        : 1rem auto;
+}
+
+.products .col-md-3 .more button
+{
+	display         : block;
+	background      : rgba(74, 18, 99, 0.3);
+	text-align      : center;
+	border-radius   : 0.5rem;
+	transition      : background 0.2s ease-in-out;
+	text-decoration : none;
+	color           : #FFF;
+	padding         : 0.5rem 0.75rem;
+	border          : none;
+	cursor          : pointer;
+	outline         : none;
+	margin          : auto;
+}
+
+.products .col-md-3 .more button:first-of-type
+{
+	margin-bottom : 0.5rem;
+}
+
+.products .col-md-3 .more button:hover
+{
+	background : rgba(74, 18, 99, 1);
+}
+
+/* End Products */
+
+/* Start About */
+
+.about
+{
+	background      : url("../img/pexels-photo-356054.jpeg") center fixed no-repeat;
+	background-size : cover;
+	position        : relative;
+	height          : 550px;
+}
+
+.about .card-img-overlay
+{
+	padding : 0;
+}
+
+.about .row .col-9
+{
+	background    : rgba(74, 18, 99, 0.65);
+	color         : #FFF;
+	border        : 0.22rem solid #A589B1;
+	border-radius : 0 2rem 0 2rem;
+	padding       : 1.5rem 1rem;
+	position      : relative;
+}
+
+.about .row .col-9:before
+{
+	content       : " ";
+	position      : absolute;
+	top           : 0;
+	left          : 0;
+	right         : 0;
+	bottom        : 0;
+	border        : 0.22rem solid #4A1263;
+	border-radius : 0 2rem 0 2rem;
+}
+
+.about .row .col-9 p
+{
+	text-align : justify;
+}
+
+/* End About */
+
+/* Start Footer */
+
+.footer
+{
+	font-size        : 1.2rem;
+	background-color : #4A1263;
+	color            : #FFF;
+}
+
+.footer .row .social
+{
+	text-align : right;
+}
+
+.footer .row .social a:first-child
+{
+	font-size    : 1rem;
+	margin-right : 1.5rem;
+}
+
+.footer .row .social a
+{
+	text-decoration : none;
+	color           : #FFF;
+	transition      : color 0.2s ease-in-out;
+	font-size       : 1rem;
+}
+
+.footer .row .social a:nth-child(2):hover
+{
+	color : #3B5998;
+}
+
+.footer .row .social a:nth-child(3):hover
+{
+	color : #1DA1F2;
+}
+
+.footer .row .social a:nth-child(4):hover
+{
+	color : #E1306C;
+}
+
+.footer .row .social a:nth-child(5):hover
+{
+	color : #CD201F;
+}
+
+.footer .row .social a i
+{
+	display : inline-block !important;
+}
+
+/* End Footer */
+
+/* Start Product-Preview Box */
+
+.preview-out
+{
+	display    : none;
+	position   : fixed;
+	top        : 0;
+	bottom     : 0;
+	left       : 0;
+	right      : 0;
+	z-index    : 15;
+	width      : 100%;
+	height     : 100%;
+	background : rgba(0, 0, 0, 0.8);
+}
+
+.preview
+{
+	border           : 0.2rem solid #A589B1;
+	border-radius    : 0.5rem;
+	background-color : #DECDE4 !important;
+	position         : relative;
+	box-shadow       : 2px 2px 10px 1px #DDD,
+	-2px -2px 10px 1px #DDD;
+}
+
+.preview > i
+{
+	position      : absolute;
+	top           : -3px;
+	right         : -4px;
+	font-size     : 2.5rem;
+	color         : #A589B1;
+	border        : 0.2rem solid #A589B1;
+	border-radius : 0.5rem;
+	width         : 50px;
+	height        : 50px;
+	text-align    : center;
+	cursor        : pointer;
+	transition    : background 0.3s ease-in-out,
+	color 0.3s ease-in-out,
+	border-color 0.3s ease-in-out;
+}
+
+.preview > i:hover
+{
+	background-color : #A589B1;
+	color            : #4A1263;
+	border-color     : #4A1263;
+}
+
+.preview .col-md-6 p
+{
+	padding : 0;
+	margin  : 0;
+}
+
+.preview .col-md-6 .row .col-5:first-of-type p
+{
+	padding       : 0.25rem 1rem;
+	font-size     : 1.15rem;
+	border-radius : 0.5rem;
+	border        : 2px solid #4A1263;
+	color         : #4A1263;
+	margin        : 1rem auto;
+	text-align    : center;
+}
+
+.preview .col-md-6 .row .col-5:last-of-type
+{
+	margin-left : auto;
+}
+
+.preview .col-md-6 .row .col-5:last-of-type p
+{
+	padding          : 0.25rem 1rem;
+	font-size        : 1.15rem;
+	border-radius    : 0.5rem;
+	border           : 2px solid #28A745;
+	color            : #FFF;
+	margin           : 1rem auto;
+	text-align       : center;
+	background-color : #28A745;
+}
+
+.preview .col-md-6 a
+{
+	display         : inline-block;
+	background      : #4A1263;
+	text-align      : center;
+	border-radius   : 0.5rem;
+	width           : 100%;
+	text-decoration : none;
+	color           : #FFF;
+	padding         : 0.5rem 0.75rem;
+	margin-top      : 0.75rem;
+}
+
+.preview .col-md-6 p
+{
+	margin-top : 1.5rem;
+	text-align : justify;
+}
+
+.preview .col-md-6 img
+{
+	padding : 1rem;
+}
+
+.preview .col-md-6 .images img
+{
+	width : 20%;
+}
+
+.preview .col-md-6 .images img:not(:last-of-type)
+{
+	margin-right : 1rem;
+}
+
+/* End Product-Preview Box */
+
+/* Start Media & Responsive Problem */
+
+@media (max-width : 768px)
+{
+	.first-nav .navbar-collapse
+	{
+		padding-left : 1rem;
+	}
+	
+	.third-nav .navbar-nav
+	{
+		width       : 60%;
+		text-align  : left;
+		margin-left : 2rem !important;
+	}
+	
+	.third-nav .navbar-nav .nav-item
+	{
+		margin : 0.25rem 0;
+	}
+	
+	.footer .row .social, .footer .row div:first-of-type, .footer .row .social a
+	{
+		text-align : center;
+		font-size  : 1rem;
+	}
+}
+
+/* End Media & Responsive Problem */
+
+/* Start Sign In */
+
+.nav-abs
+{
+	position         : absolute;
+	top              : 0;
+	left             : 0;
+	width            : 100%;
+	background-color : rgba(74, 18, 99, 0.75) !important;
+}
+
+.sign
+{
+	height          : 100vh;
+	min-height      : 100%;
+	background      : url("../img/nutrient-additives.jpeg") fixed no-repeat center;
+	background-size : cover;
+}
+
+.signUp, .signIn
+{
+	height : 100%;
+}
+
+.signUp .signUp-form, .signIn .signIn-form
+{
+	height           : 100%;
+	background-color : rgba(74, 18, 99, 0.65);
+	margin           : auto;
+	color            : #FFF;
+	border           : 0.25rem solid #A589B1;
+	border-radius    : 0.25rem;
+	box-shadow       : 2px 2px 10px 1px #4A1263,
+	-2px -2px 10px 1px #4A1263;
+}
+
+.signUp .signUp-form button, .signIn .signIn-form button
+{
+	font-size : 1.1rem;
+	color     : #FFF;
+	cursor    : pointer;
+}
+
+.signUp .signUp-form button:first-of-type, .signIn .signIn-form button:first-of-type
+{
+	background-color : #3B5998;
+}
+
+.signUp .signUp-form button:first-of-type:hover, .signIn .signIn-form button:first-of-type:hover
+{
+	background-color : #2F477A;
+}
+
+.signUp .signUp-form button:nth-of-type(2), .signIn .signIn-form button:nth-of-type(2)
+{
+	background-color : #4285F4;
+}
+
+.signUp .signUp-form button:nth-of-type(2):hover, .signIn .signIn-form button:nth-of-type(2):hover
+{
+	background-color : #346AC2;
+}
+
+.signUp .signUp-form button:last-of-type, .signIn .signIn-form button:last-of-type
+{
+	background-color : #4A1263;
+}
+
+.signUp .signUp-form button:last-of-type:hover, .signIn .signIn-form button:last-of-type:hover
+{
+	background-color : #A589B1;
+}
+
+.signUp .signUp-form input, .signUp .signUp-form input::placeholder, .signUp .signUp-form select, .signIn .signIn-form input, .signIn .signIn-form input::placeholder, .signIn .signIn-form select
+{
+	color : #606060;
+}
+
+.signUp .signUp-form a, .signIn .signIn-form a
+{
+	display         : inline-block;
+	width           : 100%;
+	color           : #FFF;
+	text-align      : center;
+	text-decoration : none;
+	font-size       : 1.05rem;
+}
+
+.signUp .signUp-form a:hover
+{
+	color : #A589B1;
+}
